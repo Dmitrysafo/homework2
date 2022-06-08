@@ -7,20 +7,9 @@
 int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
 int c = int.Parse(Console.ReadLine());
-if (a > b)
-{
-    Console.WriteLine(a);
-}
-if (b > a)
-{
-    Console.WriteLine(b);
-}
-if (c > a)
-{
-    Console.WriteLine(c);
-}
-else
-{
-    Console.WriteLine();
+int max = a;
+if (a > b) max = a;
+if (b > c) max = b;
+if (c > a) max = c;
+Console.WriteLine(max);
 
-}
