@@ -4,14 +4,13 @@
 7 -> нет */
 
 int a = int.Parse(Console.ReadLine());
-
-if
+if (a % 2 == 0 )
 {
-    (void Console.Write(a / 2));
 
-    (Console.WriteLine("Четное"));
+
+    Console.WriteLine("Четное");
 }
 else
 {
-    (Console.WriteLine("Нечетное"));
+    Console.WriteLine("Нечетное");
 }
